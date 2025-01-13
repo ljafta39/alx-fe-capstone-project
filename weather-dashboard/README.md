@@ -31,13 +31,15 @@ A weather dashboard built with **React.js** and **Tailwind CSS**. This applicati
    npm install 
    ```
 2. 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+- This project is licensed under the MIT License - see the LICENSE file for details.
 3. 🙏 Acknowledgments
 
-OpenWeatherMap for providing the weather data API
-Lucide for the beautiful icons
-Tailwind CSS team for the styling framework
+-   OpenWeatherMap for providing the weather data API
+-   Lucide for the beautiful icons
+-   Tailwind CSS team for the styling framework
 
 4. 📫 Contact
-Lungellihle - lungaj39@gmail.com
-Project Link: https://github.com/ljafta39/alx-fe-capstone-project/ljafta39/weather-dashboard
+
+- Lungellihle - lungaj39@gmail.com
+- Project Link: https://github.com/ljafta39/alx-fe-capstone-project/weather-dashboard
