@@ -1,5 +1,4 @@
- // Languages supported
-const LANGUAGES = {
+export const LANGUAGES = {
     en: {
       search: "Search for a city...",
       temperature: "Temperature",
@@ -47,4 +46,3 @@ const LANGUAGES = {
     },
   };
   
-  export default LANGUAGES;

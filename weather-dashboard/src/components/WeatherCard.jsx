@@ -1,8 +1,18 @@
-import React from "react";
-import ForecastCard from "./ForecastCard";
 import { LANGUAGES } from "../utils/constants";
+import { ForecastCard } from "./ForecastCard";
 
-const WeatherCard = ({ data, forecast, units, lang }) => {
+/**
+ * A component that displays the current weather and a forecast.
+ *
+ * @param {Object} data - The current weather data.
+ * @param {Object} forecast - The forecast data for the upcoming days.
+ * @param {string} units - The unit system to use for temperature and wind speed ("metric" or "imperial").
+ * @param {string} lang - The language code for localization.
+ *
+ * @returns {JSX.Element|null} A React element representing the weather card, or null if no data is provided.
+ */
+
+export const WeatherCard = ({ data, forecast, units, lang }) => {
   if (!data) return null;
 
   const t = LANGUAGES[lang];
@@ -42,6 +52,7 @@ const WeatherCard = ({ data, forecast, units, lang }) => {
           </div>
         </div>
       </div>
+
       {forecast && forecast.daily && forecast.daily.length > 0 && (
         <div className="bg-white/90 dark:bg-gray-800/90 rounded-lg p-6 shadow-lg backdrop-blur-sm">
           <h3 className="text-xl font-semibold mb-4 dark:text-white">{t.forecast}</h3>
@@ -60,5 +71,3 @@ const WeatherCard = ({ data, forecast, units, lang }) => {
     </div>
   );
 };
-
-export default WeatherCard;
