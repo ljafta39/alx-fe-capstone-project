@@ -11,3 +11,4 @@ Search History: Recent searches are saved for quick access
 Responsive Design: Works seamlessly across desktop and mobile devices
 Unit Conversion: Support for both metric and imperial units
 Error Handling: User-friendly error messages and loading states
+![Code](https://github.com/ljafta39/alx-fe-capstone-project/tree/main/weather-dashboard)

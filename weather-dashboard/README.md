@@ -13,7 +13,8 @@ A weather dashboard built with **React.js** and **Tailwind CSS**. This applicati
 
 ## Live demo 📸
 
-![Dashboard Screenshot](https://alx-fe-capstone-project-n0537cbig-lungelihle-jaftas-projects.vercel.app/)
+![Dashboard Screenshot](https://alx-fe-capstone-project-seven.vercel.app/)
+
 
 ## Technologies Used 🛠️
 
@@ -42,4 +43,4 @@ A weather dashboard built with **React.js** and **Tailwind CSS**. This applicati
 4. 📫 Contact
 
 - Lungellihle - lungaj39@gmail.com
-- Project Link: https://github.com/ljafta39/alx-fe-capstone-project/weather-dashboard
+- Project Link: https://github.com/ljafta39/alx-fe-capstone-project/tree/main/weather-dashboard
