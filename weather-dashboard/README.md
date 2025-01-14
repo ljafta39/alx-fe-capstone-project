@@ -13,7 +13,7 @@ A weather dashboard built with **React.js** and **Tailwind CSS**. This applicati
 
 ## Live demo 📸
 
-![Dashboard Screenshot](https://alx-fe-capstone-project-seven.vercel.app/)
+Link: https://alx-fe-capstone-project-seven.vercel.app/
 
 
 ## Technologies Used 🛠️
